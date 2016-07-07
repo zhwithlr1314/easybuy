@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>EbNewsController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EbNewsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EbNewsController</servlet-name>
+        <url-pattern>/Index.Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>sdkd.com.ec.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Login.Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>sdkd.com.ec.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/Register.Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegResultServlet</servlet-name>
+        <servlet-class>sdkd.com.ec.servlet.RegResultServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegResultServlet</servlet-name>
+        <url-pattern>/RegResult.Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CommentServlet</servlet-name>
+        <servlet-class>sdkd.com.ec.servlet.CommentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CommentServlet</servlet-name>
+        <url-pattern>/Comment.Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>EbProductController</servlet-name>
+    <servlet-class>sdkd.com.ec.servlet.EbProductController</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>EbProductController</servlet-name>
+        <url-pattern>/Product.Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InsertCommentServlet</servlet-name>
+        <servlet-class>sdkd.com.ec.servlet.InsertCommentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertCommentServlet</servlet-name>
+        <url-pattern>/Insert.Comment.Servlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EbnewsViewController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EbNewsViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EbnewsViewController</servlet-name>
+        <url-pattern>/Newsview.Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EbProductViewController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EbProductViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EbProductViewController</servlet-name>
+        <url-pattern>/ProductView.Servlet</url-pattern>
+    </servlet-mapping>
+</web-app>

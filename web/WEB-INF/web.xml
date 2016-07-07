@@ -50,7 +50,7 @@
 
     <servlet>
     <servlet-name>EbProductController</servlet-name>
-    <servlet-class>sdkd.com.ec.servlet.EbProductController</servlet-class>
+    <servlet-class>sdkd.com.ec.servlet.BargainProductServlet</servlet-class>
 </servlet>
     <servlet-mapping>
         <servlet-name>EbProductController</servlet-name>

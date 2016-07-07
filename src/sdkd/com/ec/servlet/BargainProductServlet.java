@@ -16,8 +16,8 @@ import java.util.List;
 /**
  * Created by zhangjiwen on 2016/7/6.
  */
-@WebServlet(name = "EbProductController")
-public class EbProductController extends HttpServlet {
+@WebServlet(name = "BargainProductServlet")
+public class BargainProductServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
     }
